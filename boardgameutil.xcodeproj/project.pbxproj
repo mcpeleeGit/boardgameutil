@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		C2912D832D8ADFD100EEE672 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2912D6A2D8ADFD000EEE672 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2912D712D8ADFD000EEE672;
+			remoteInfo = boardgameutil;
+		};
+		C2912D8D2D8ADFD100EEE672 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2912D6A2D8ADFD000EEE672 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2912D712D8ADFD000EEE672;
+			remoteInfo = boardgameutil;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C2912D722D8ADFD000EEE672 /* boardgameutil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = boardgameutil.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2912D822D8ADFD100EEE672 /* boardgameutilTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = boardgameutilTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2912D8C2D8ADFD100EEE672 /* boardgameutilUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = boardgameutilUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		C2912D742D8ADFD000EEE672 /* boardgameutil */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = boardgameutil;
+			sourceTree = "<group>";
+		};
+		C2912D852D8ADFD100EEE672 /* boardgameutilTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = boardgameutilTests;
+			sourceTree = "<group>";
+		};
+		C2912D8F2D8ADFD100EEE672 /* boardgameutilUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = boardgameutilUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2912D6F2D8ADFD000EEE672 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2912D7F2D8ADFD100EEE672 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2912D892D8ADFD100EEE672 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C2912D692D8ADFD000EEE672 = {
+			isa = PBXGroup;
+			children = (
+				C2912D742D8ADFD000EEE672 /* boardgameutil */,
+				C2912D852D8ADFD100EEE672 /* boardgameutilTests */,
+				C2912D8F2D8ADFD100EEE672 /* boardgameutilUITests */,
+				C2912D732D8ADFD000EEE672 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2912D732D8ADFD000EEE672 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2912D722D8ADFD000EEE672 /* boardgameutil.app */,
+				C2912D822D8ADFD100EEE672 /* boardgameutilTests.xctest */,
+				C2912D8C2D8ADFD100EEE672 /* boardgameutilUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2912D712D8ADFD000EEE672 /* boardgameutil */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2912D962D8ADFD100EEE672 /* Build configuration list for PBXNativeTarget "boardgameutil" */;
+			buildPhases = (
+				C2912D6E2D8ADFD000EEE672 /* Sources */,
+				C2912D6F2D8ADFD000EEE672 /* Frameworks */,
+				C2912D702D8ADFD000EEE672 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				C2912D742D8ADFD000EEE672 /* boardgameutil */,
+			);
+			name = boardgameutil;
+			packageProductDependencies = (
+			);
+			productName = boardgameutil;
+			productReference = C2912D722D8ADFD000EEE672 /* boardgameutil.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C2912D812D8ADFD100EEE672 /* boardgameutilTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2912D992D8ADFD100EEE672 /* Build configuration list for PBXNativeTarget "boardgameutilTests" */;
+			buildPhases = (
+				C2912D7E2D8ADFD100EEE672 /* Sources */,
+				C2912D7F2D8ADFD100EEE672 /* Frameworks */,
+				C2912D802D8ADFD100EEE672 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2912D842D8ADFD100EEE672 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C2912D852D8ADFD100EEE672 /* boardgameutilTests */,
+			);
+			name = boardgameutilTests;
+			packageProductDependencies = (
+			);
+			productName = boardgameutilTests;
+			productReference = C2912D822D8ADFD100EEE672 /* boardgameutilTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C2912D8B2D8ADFD100EEE672 /* boardgameutilUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2912D9C2D8ADFD100EEE672 /* Build configuration list for PBXNativeTarget "boardgameutilUITests" */;
+			buildPhases = (
+				C2912D882D8ADFD100EEE672 /* Sources */,
+				C2912D892D8ADFD100EEE672 /* Frameworks */,
+				C2912D8A2D8ADFD100EEE672 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2912D8E2D8ADFD100EEE672 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C2912D8F2D8ADFD100EEE672 /* boardgameutilUITests */,
+			);
+			name = boardgameutilUITests;
+			packageProductDependencies = (
+			);
+			productName = boardgameutilUITests;
+			productReference = C2912D8C2D8ADFD100EEE672 /* boardgameutilUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2912D6A2D8ADFD000EEE672 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					C2912D712D8ADFD000EEE672 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					C2912D812D8ADFD100EEE672 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = C2912D712D8ADFD000EEE672;
+					};
+					C2912D8B2D8ADFD100EEE672 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = C2912D712D8ADFD000EEE672;
+					};
+				};
+			};
+			buildConfigurationList = C2912D6D2D8ADFD000EEE672 /* Build configuration list for PBXProject "boardgameutil" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C2912D692D8ADFD000EEE672;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C2912D732D8ADFD000EEE672 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2912D712D8ADFD000EEE672 /* boardgameutil */,
+				C2912D812D8ADFD100EEE672 /* boardgameutilTests */,
+				C2912D8B2D8ADFD100EEE672 /* boardgameutilUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2912D702D8ADFD000EEE672 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2912D802D8ADFD100EEE672 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2912D8A2D8ADFD100EEE672 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2912D6E2D8ADFD000EEE672 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2912D7E2D8ADFD100EEE672 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2912D882D8ADFD100EEE672 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C2912D842D8ADFD100EEE672 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2912D712D8ADFD000EEE672 /* boardgameutil */;
+			targetProxy = C2912D832D8ADFD100EEE672 /* PBXContainerItemProxy */;
+		};
+		C2912D8E2D8ADFD100EEE672 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2912D712D8ADFD000EEE672 /* boardgameutil */;
+			targetProxy = C2912D8D2D8ADFD100EEE672 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C2912D942D8ADFD100EEE672 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C2912D952D8ADFD100EEE672 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2912D972D8ADFD100EEE672 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"boardgameutil/Preview Content\"";
+				DEVELOPMENT_TEAM = 88J35QPT9J;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.googsu.boardgameutil;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C2912D982D8ADFD100EEE672 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"boardgameutil/Preview Content\"";
+				DEVELOPMENT_TEAM = 88J35QPT9J;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.googsu.boardgameutil;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C2912D9A2D8ADFD100EEE672 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 88J35QPT9J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.googsu.boardgameutilTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/boardgameutil.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/boardgameutil";
+			};
+			name = Debug;
+		};
+		C2912D9B2D8ADFD100EEE672 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 88J35QPT9J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.googsu.boardgameutilTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/boardgameutil.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/boardgameutil";
+			};
+			name = Release;
+		};
+		C2912D9D2D8ADFD100EEE672 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 88J35QPT9J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.googsu.boardgameutilUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = boardgameutil;
+			};
+			name = Debug;
+		};
+		C2912D9E2D8ADFD100EEE672 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 88J35QPT9J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.googsu.boardgameutilUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = boardgameutil;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2912D6D2D8ADFD000EEE672 /* Build configuration list for PBXProject "boardgameutil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2912D942D8ADFD100EEE672 /* Debug */,
+				C2912D952D8ADFD100EEE672 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2912D962D8ADFD100EEE672 /* Build configuration list for PBXNativeTarget "boardgameutil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2912D972D8ADFD100EEE672 /* Debug */,
+				C2912D982D8ADFD100EEE672 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2912D992D8ADFD100EEE672 /* Build configuration list for PBXNativeTarget "boardgameutilTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2912D9A2D8ADFD100EEE672 /* Debug */,
+				C2912D9B2D8ADFD100EEE672 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2912D9C2D8ADFD100EEE672 /* Build configuration list for PBXNativeTarget "boardgameutilUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2912D9D2D8ADFD100EEE672 /* Debug */,
+				C2912D9E2D8ADFD100EEE672 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2912D6A2D8ADFD000EEE672 /* Project object */;
+}
